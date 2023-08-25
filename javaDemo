@@ -1,0 +1,24 @@
+a=10
+if(a===10){
+    console.log(true)
+}    
+else{
+    console.log(false)
+}   
+
+b=10
+if(b===10){
+    console.log(true)
+}
+else{
+    console.log(false)
+}
+c=1
+while(c<10){
+    console.log(c)
+    c++
+}
+function f1(){
+    console.log("hello world")
+}
+f1()

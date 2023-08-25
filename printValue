@@ -1,0 +1,8 @@
+function printValue(start,end){
+    console.log(start);
+    if(start<end){
+        printValue((start+1),end)
+    }
+}
+//function the call 
+printValue(1,100)
